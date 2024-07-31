@@ -1,0 +1,22 @@
+{
+  "engines": {
+    "node": ">=20.15.0"
+  },
+  "name": "poo-concepts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node --watch -r ts-node/register aula01/exemplo-01.ts",
+    "ex1": "node --watch -r ts-node/register aula01/exercicio-01.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
