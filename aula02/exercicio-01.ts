@@ -1,11 +1,11 @@
 class Pessoa {
   static numeroDeInstanciasCriadas = 0;
 
-  private nome: string;
+  private nome: string = "";
   private sobreNome: string;
   private dataNascimento: Date;
   constructor(nome: string, sobreNome: string, dataNascimento: Date) {
-    this.nome = nome;
+    this.setNome(nome);
     this.sobreNome = sobreNome;
     this.dataNascimento = dataNascimento;
     Pessoa.numeroDeInstanciasCriadas++;
@@ -20,6 +20,12 @@ class Pessoa {
   }
 
   setDataNascimento(dataNascimento: Date): void {
+    if (dataNascimento > new Date()) {
+      //error!
+    }
+    if (dataNascimento < this.dataNascimento) {
+      //error!
+    }
     this.dataNascimento = dataNascimento;
   }
 
@@ -33,16 +39,17 @@ class Pessoa {
 }
 
 function exibePessoa(pessoa: Pessoa) {
-  console.log(pessoa.getNomeCompleto());
-  console.log(pessoa.getIdade());
+  console.log("Nome completo:", pessoa.getNomeCompleto());
+  console.log(`Idade: ${pessoa.getIdade()} anos`);
 }
 
 const pessoa1 = new Pessoa("John", "Doe", new Date(1700, 1, 1));
-const pessoa2 = new Pessoa("Neymar", "Junior", new Date()); //Está correto isto?
+const pessoa2 = new Pessoa("Neymar", "Junior", new Date()); //Está correto isto!
 
 exibePessoa(pessoa1);
 exibePessoa(pessoa2);
 
+//Princípio de Imutabilidade de Objetos!
 pessoa1.setDataNascimento(new Date()) //Pode isso Arnaldo?
 
 exibePessoa(pessoa1);
