@@ -13,7 +13,10 @@
     "aula02-exemplo-02-1": "node --watch -r ts-node/register aula02/exemplo-02-1.ts",
     "aula02-exemplo-02-2": "node --watch -r ts-node/register aula02/exemplo-02-2.ts",
     "aula02-exemplo-03": "node --watch -r ts-node/register aula02/exemplo-03.ts",
-    "aula02-exercicio-01": "node --watch -r ts-node/register aula02/exercicio-01.ts"
+    "aula02-exercicio-01": "node --watch -r ts-node/register aula02/exercicio-01.ts",
+    "aula03-exemplo-01": "node --watch -r ts-node/register aula03/abstracao.ts",
+    "aula03-exemplo-02": "node --watch -r ts-node/register aula03/heranca.ts",
+    "aula03-exercicio-01": "node --watch -r ts-node/register aula03/exercicio-01.ts"
   },
   "keywords": [],
   "author": "",
