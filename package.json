@@ -22,7 +22,14 @@
     "aula04-exemplo-03": "node --watch -r ts-node/register aula04/exemplo-03.ts",
     "aula04-exercicio-01": "node --watch -r ts-node/register aula04/exercicio-01.ts",
     "aula05-exemplo-01": "node --watch -r ts-node/register aula05/exemplo-01.ts",
-    "aula05-exercicio-01": "node --watch -r ts-node/register aula05/exercicio-01.ts"
+    "aula05-exercicio-01": "node --watch -r ts-node/register aula05/exercicio-01.ts",
+    "aula06-exemplo-01": "node --watch -r ts-node/register aula06/exemplo-01.ts",
+    "aula06-exemplo-02": "node --watch -r ts-node/register aula06/exemplo-01-refatorado.ts",
+    "aula06-exercicio-01": "node --watch -r ts-node/register aula06/exercicio-01.ts",
+    "aula07-exemplo-01": "node --watch -r ts-node/register aula07/exemplo-01.ts",
+    "aula07-exemplo-02": "node --watch -r ts-node/register aula07/exemplo-02.ts",
+    "aula07-exemplo-03": "node --watch -r ts-node/register aula07/exemplo-03.ts",
+    "aula07-exercicio-01": "node --watch -r ts-node/register aula07/exercicio-01.ts"
   },
   "keywords": [],
   "author": "",
