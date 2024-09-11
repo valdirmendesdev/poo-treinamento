@@ -29,7 +29,17 @@
     "aula07-exemplo-01": "node --watch -r ts-node/register aula07/exemplo-01.ts",
     "aula07-exemplo-02": "node --watch -r ts-node/register aula07/exemplo-02.ts",
     "aula07-exemplo-03": "node --watch -r ts-node/register aula07/exemplo-03.ts",
-    "aula07-exercicio-01": "node --watch -r ts-node/register aula07/exercicio-01.ts"
+    "aula07-exercicio-01": "node --watch -r ts-node/register aula07/exercicio-01.ts",
+    "aula08-exemplo-01": "node --watch -r ts-node/register aula08/exemplo-01.ts",
+    "aula08-exemplo-01-solid": "node --watch -r ts-node/register aula08/exemplo-01-solid.ts",
+    "aula08-exemplo-02": "node --watch -r ts-node/register aula08/exemplo-02.ts",
+    "aula08-exemplo-02-solid": "node --watch -r ts-node/register aula08/exemplo-02-solid.ts",
+    "aula08-exemplo-03": "node --watch -r ts-node/register aula08/exemplo-03.ts",
+    "aula08-exemplo-03-solid": "node --watch -r ts-node/register aula08/exemplo-03-solid.ts",
+    "aula08-exemplo-04": "node --watch -r ts-node/register aula08/exemplo-04.ts",
+    "aula08-exemplo-04-solid": "node --watch -r ts-node/register aula08/exemplo-04-solid.ts",
+    "aula08-exemplo-05": "node --watch -r ts-node/register aula08/exemplo-05.ts",
+    "aula08-exemplo-06-solid": "node --watch -r ts-node/register aula08/exemplo-05-solid.ts"
   },
   "keywords": [],
   "author": "",
