@@ -36,10 +36,11 @@
     "aula08-exemplo-02-solid": "node --watch -r ts-node/register aula08/exemplo-02-solid.ts",
     "aula08-exemplo-03": "node --watch -r ts-node/register aula08/exemplo-03.ts",
     "aula08-exemplo-03-solid": "node --watch -r ts-node/register aula08/exemplo-03-solid.ts",
-    "aula08-exemplo-04": "node --watch -r ts-node/register aula08/exemplo-04.ts",
-    "aula08-exemplo-04-solid": "node --watch -r ts-node/register aula08/exemplo-04-solid.ts",
-    "aula08-exemplo-05": "node --watch -r ts-node/register aula08/exemplo-05.ts",
-    "aula08-exemplo-06-solid": "node --watch -r ts-node/register aula08/exemplo-05-solid.ts"
+    "aula09-exemplo-04": "node --watch -r ts-node/register aula09/exemplo-04.ts",
+    "aula09-exemplo-04-solid": "node --watch -r ts-node/register aula09/exemplo-04-solid.ts",
+    "aula09-exemplo-05": "node --watch -r ts-node/register aula09/exemplo-05.ts",
+    "aula09-exemplo-05-solid": "node --watch -r ts-node/register aula09/exemplo-05-solid.ts",
+    "aula09-tdd-exemplo-01": "node --import=tsx --test ./aula09/**/*.test.ts"
   },
   "keywords": [],
   "author": "",
@@ -48,6 +49,7 @@
   "devDependencies": {
     "@types/node": "^20.14.12",
     "ts-node": "^10.9.2",
+    "tsx": "^4.19.1",
     "typescript": "^5.5.4"
   }
 }
