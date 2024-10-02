@@ -40,7 +40,10 @@
     "aula09-exemplo-04-solid": "node --watch -r ts-node/register aula09/exemplo-04-solid.ts",
     "aula09-exemplo-05": "node --watch -r ts-node/register aula09/exemplo-05.ts",
     "aula09-exemplo-05-solid": "node --watch -r ts-node/register aula09/exemplo-05-solid.ts",
-    "aula09-tdd-exemplo-01": "node --import=tsx --test ./aula09/**/*.test.ts"
+    "aula09-tdd-exemplo-01": "node --import=tsx --test ./aula09/**/*.test.ts",
+    "aula10-exercicio-01": "node --import=tsx --test ./aula10/**/exercicio-01.test.ts",
+    "aula10-exemplo-01": "node --import=tsx --test ./aula10/**/exemplo-01-test-doubles.test.ts",
+    "aula10-exercicio-02": "node --import=tsx --test ./aula10/**/exercicio-02.test.ts"
   },
   "keywords": [],
   "author": "",
