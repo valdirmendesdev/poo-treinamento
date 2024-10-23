@@ -43,7 +43,10 @@
     "aula09-tdd-exemplo-01": "node --import=tsx --test ./aula09/**/*.test.ts",
     "aula10-exercicio-01": "node --import=tsx --test ./aula10/**/exercicio-01.test.ts",
     "aula10-exemplo-01": "node --import=tsx --test ./aula10/**/exemplo-01-test-doubles.test.ts",
-    "aula10-exercicio-02": "node --import=tsx --test ./aula10/**/exercicio-02.test.ts"
+    "aula10-exercicio-02": "node --import=tsx --test ./aula10/**/exercicio-02.test.ts",
+    "aula11-exemplo-01": "node --watch -r ts-node/register aula11/exemplo-01-singleton.ts",
+    "aula11-exemplo-02": "node --watch -r ts-node/register aula11/exemplo-02-observer.ts",
+    "aula11-exemplo-03": "node --watch -r ts-node/register aula11/exemplo-03-strategy.ts"
   },
   "keywords": [],
   "author": "",
